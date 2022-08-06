@@ -1,0 +1,16 @@
+@import 'animate.css';
+@import 'loaders.css/src/animations/ball-scale.scss';
+
+$font-stack: Montserrat, sans-serif;
+$primary-color: #e5f2f0;
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
+
+@mixin fontface {
+  font-family: $font-stack;
+}
